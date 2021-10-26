@@ -9,7 +9,7 @@ pipeline {
  		}
  		stage("Unit test") {
  			steps {
- 				sh "python test_sum_num.py"
+ 				sh "python3 test_sum_num.py"
  			}
  		}
  	}
