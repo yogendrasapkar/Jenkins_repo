@@ -14,7 +14,7 @@ pipeline {
  		}
 		stage("build") {
  			steps {
- 				sh """ Docker build -t test1 ."""
+ 				sh """ docker build -t test_sum_num ."""
  			}
  		}
 // 		stage("run") {
