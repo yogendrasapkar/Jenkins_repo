@@ -14,7 +14,7 @@ pipeline {
  		}
 		stage("build") {
  			steps {
- 				sh """sudo docker build -t test1 ."""
+ 				sh """ Docker build -t test1 ."""
  			}
  		}
 // 		stage("run") {
