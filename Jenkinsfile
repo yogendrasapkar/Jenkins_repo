@@ -14,7 +14,8 @@ pipeline {
  		}
 		stage("build") {
  			steps {
- 				sh """ docker build -t test1 ."""
+ 				// This step should not normally be used in your script. Consult the inline help for details.
+					dockerFingerprintRun 'cda73647254a'
  			}
  		}
 // 		stage("run") {
