@@ -12,10 +12,6 @@ pipeline {
  				sh "python test_sum_num.py"
  			}
  		}
-         stage("Docker Image") {
- 			steps {
- 				sh "docker Dockerfile"
- 			}
- 		}
+         
  	}
 }
