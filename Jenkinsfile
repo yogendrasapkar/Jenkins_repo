@@ -12,11 +12,11 @@ pipeline {
  				sh "python test_sum_num.py"
  			}
  		}
-// 		stage("build") {
-//  			steps {
-//  				sh """ docker build -t test_sum_num ."""
-//  			}
-//  		}
+		stage("build") {
+ 			steps {
+ 				sh """ docker build -t test_sum_num ."""
+ 			}
+ 		}
 // 		stage("run") {
 //  			steps {
 //  				sh "docker run --rm test"
