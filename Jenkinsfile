@@ -14,7 +14,7 @@ pipeline {
  		}
 		stage("build") {
  			steps {
- 				sh """ docker build -t Dockerfile ."""
+ 				sh """ docker build -t test1 ."""
  			}
  		}
 // 		stage("run") {
