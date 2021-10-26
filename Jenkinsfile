@@ -17,11 +17,11 @@ pipeline {
  				sh """docker build -t test_sum_num ."""
  			}
  		}
-		stage("run") {
- 			steps {
- 				sh "docker run --rm test"
- 			}
- 		}
+// 		stage("run") {
+//  			steps {
+//  				sh "docker run --rm test"
+//  			}
+//  		}
          
  	}
 }
